@@ -23,8 +23,8 @@
           "!type": "External",
           "file": [
             "forms",
-            "homePage",
-            "homePage.json"
+            "login",
+            "login.json"
           ]
         },
         {
@@ -33,6 +33,14 @@
             "forms",
             "bucketList",
             "bucketList.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "journalEntry",
+            "journalEntry.json"
           ]
         }
       ],
@@ -55,7 +63,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "homePage",
+      "firstform": "login",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",
