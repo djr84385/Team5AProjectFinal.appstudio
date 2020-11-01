@@ -31,8 +31,8 @@
           "!type": "External",
           "file": [
             "forms",
-            "bucketList",
-            "bucketList.json"
+            "userBucketlist",
+            "userBucketlist.json"
           ]
         },
         {
@@ -47,8 +47,8 @@
           "!type": "External",
           "file": [
             "forms",
-            "userBucketlist",
-            "userBucketlist.json"
+            "bucketList",
+            "bucketList.json"
           ]
         }
       ],
