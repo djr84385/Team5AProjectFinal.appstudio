@@ -50,6 +50,14 @@
             "bucketList",
             "bucketList.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "addBucketlistEvent",
+            "addBucketlistEvent.json"
+          ]
         }
       ],
       "configxml": null,

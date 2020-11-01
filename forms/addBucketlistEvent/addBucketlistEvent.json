@@ -14,18 +14,18 @@
       "!type": "External",
       "file": [
         "forms",
-        "journalEntry",
+        "addBucketlistEvent",
         "Elements",
-        "txtJournalContent.json"
+        "inptEventName.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "journalEntry",
+        "addBucketlistEvent",
         "Elements",
-        "lblEventName.json"
+        "txtEventDescription.json"
       ]
     }
   ],
@@ -35,7 +35,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "journalEntry",
+  "id": "addBucketlistEvent",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
