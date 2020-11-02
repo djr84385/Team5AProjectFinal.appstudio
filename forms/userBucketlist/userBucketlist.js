@@ -6,12 +6,14 @@ userName = "jrp85607"
 database = "375groupa5"
 currentUserEvents = []
 
-query = "SELECT event_name, description, date_added, date_completed FROM `events` e INNER JOIN bucketlists b ON e.bucket_id = b.bucket_id INNER JOIN `user` u ON u.user_id = b.user_id WHERE u.user_id = 1;"
+console.log(accountName)
+
+query = "SELECT event_name, description, date_added, date_completed FROM `events` e INNER JOIN bucketlists b ON e.bucket_id = b.bucket_id INNER JOIN `user` u ON u.user_id = b.user_id WHERE u.username = '" + accountName + "';"
+console.log(query)
 
 req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + userName + "&pass=" + pw + "&database=" + database + "&query=" + query)
 
 if (req.status == 200) { //transit worked.
-  //save the sate of the customer 
   currentUserEvents = JSON.parse(req.responseText)
   console.log(currentUserEvents)
 } else

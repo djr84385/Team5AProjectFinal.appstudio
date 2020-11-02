@@ -29,6 +29,7 @@ let loginCheck = []
 
 btnLogin.onclick=function(){
   accountName = inptUsername.value
+  console.log(accountName)
   pass = inptPassword.value
   
   loginCheck = [accountName, pass]
