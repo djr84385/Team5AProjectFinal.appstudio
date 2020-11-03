@@ -4,7 +4,7 @@ results = ""
 pw = "JeremyBIA123"  // put your database password here
 userName = "jrp85607"
 database = "375groupa5"
-currentUserEvents = []
+let currentUserEvents = []
 
 console.log(accountName)
 
@@ -19,16 +19,17 @@ if (req.status == 200) { //transit worked.
 } else
   console.log("error")
   
-var dataJson = JSON.stringify(currentUserEvents);
+let dataJson = JSON.stringify(currentUserEvents);
 
 // class values are here:
 // http://getbootstrap.com/css/#type-alignment
-var columns1 = [
+let columns1 = [
             {title: "Event"},
             {title: "Description"},
             {title: "Date Added"},
             {title: "Date Completed"},
         ];
+
         
 function Main() {
   updateTable();
@@ -97,4 +98,5 @@ Fliptoggle5.onchange = function() {
   DataTable1.settings.searching = Fliptoggle5.value;
   updateTable();
 };
+
 
